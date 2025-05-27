@@ -69,10 +69,12 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
 
     #each_card {
         padding: 24px;
+        /* background-color: #9DE5FF;
+        background-image: none; */
         /* min-width: calc(100% - 20px); */
         width: 100%;
     }

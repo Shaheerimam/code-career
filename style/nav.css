@@ -61,3 +61,13 @@ nav {
     }
 
 }
+
+@media screen and (max-width: 320px) {
+    #btn {
+        /* background-color: aquamarine; */
+        /* background-image: none; */
+        font-size: 8px;
+        padding: 8px 14px;
+    }
+
+}
