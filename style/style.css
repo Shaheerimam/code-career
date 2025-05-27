@@ -8,7 +8,7 @@
 
 body {
     background-image: linear-gradient(to top, #B8E7FA, #E6E6FA);
-    min-height: 200vh;
+    min-height: 100vh;
 }
 
 #btn {
