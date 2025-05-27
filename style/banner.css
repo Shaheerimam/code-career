@@ -1,0 +1,93 @@
+.banner {
+    background-color: #E6EDF9;
+    border: none;
+    border-radius: 16px;
+    padding: 40px 60px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto;
+    /* color: #333; */
+
+    width: 87.5%;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: extrabold;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: regular;
+    color: #0D1321;
+    margin-bottom: 32px;
+}
+
+.banner img {
+    /* width: 25%; */
+    height: auto;
+    max-width: 25%;
+    margin-bottom: 32px;
+    /* border-radius: 16px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* for tablet */
+@media screen and (max-width: 768px) {
+    .banner {
+        /* background-color: aqua; */
+        padding: 20px;
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .banner h1 {
+        font-size: 16px;
+    }
+
+    .banner p {
+        font-size: 12px;
+    }
+
+    .banner img {
+        max-width: 50%;
+    }
+
+}
+
+/* for mobile */
+@media screen and (max-width: 425px) {
+    .banner {
+        padding: 12px;
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    .banner h1 {
+        font-size: 14px;
+    }
+
+    .banner p {
+        font-size: 10px;
+    }
+
+    .banner img {
+        max-width: 50%;
+    }
+
+}
+
+/* for laptop */
+@media screen and (max-width: 1024px) {
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .banner p {
+        font-size: 12px;
+    }
+
+}

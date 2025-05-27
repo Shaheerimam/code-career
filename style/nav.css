@@ -1,0 +1,63 @@
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 6.12%;
+
+}
+
+#title {
+    font-size: 28px;
+    font-weight: extrabold;
+    color: #0D1321;
+}
+
+#title span {
+    color: #FFA500;
+}
+
+/* for mobile */
+@media screen and (max-width: 425px) {
+    #btn {
+        /* background-color: aquamarine; */
+        /* background-image: none; */
+        font-size: 12px;
+        padding: 12px 18px;
+    }
+
+    nav {
+        /* background-color: black; */
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 4.12%;
+
+    }
+
+
+    #title {
+        font-size: 18px;
+        /* margin-bottom: 16px; */
+    }
+
+
+
+}
+
+
+
+/* for tablet */
+@media screen and (max-width: 768px) {
+
+
+    #title {
+        font-size: 24px;
+        /* margin-bottom: 16px; */
+    }
+
+    #btn {
+        font-size: 18px;
+        padding: 12px 16px;
+    }
+
+}
